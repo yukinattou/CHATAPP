@@ -10,4 +10,23 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
+   
+    
+    
+    
+
+
+    @IBOutlet weak var TeachersImag: UIImageView!
+ 
+    
+    @IBOutlet weak var TeachersName: UILabel!
+    
+    @IBOutlet weak var Ftype: UILabel!
+    
+    
+    
 }
+    
+    
+
+
