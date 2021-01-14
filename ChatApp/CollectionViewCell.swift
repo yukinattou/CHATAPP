@@ -8,14 +8,10 @@
 
 import UIKit
 
+
 class CollectionViewCell: UICollectionViewCell {
     
-   
     
-    
-    
-
-
     @IBOutlet weak var TeachersImag: UIImageView!
  
     
@@ -23,10 +19,23 @@ class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var Ftype: UILabel!
     
+
+    @IBOutlet weak var offbutton: UIButton!
     
+ 
+
+
+
+    
+    @IBAction func onbutton(_ sender: UIButton) {
+     
+       
+        _ = UIImage(named: "heart")
+               _ = UIControl.State.normal
+                    offbutton.setImage(UIImage(systemName: "heart.fill"), for: .selected)
+
+    }
     
 }
     
     
-
-
