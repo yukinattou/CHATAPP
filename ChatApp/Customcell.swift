@@ -13,7 +13,14 @@ class Customcell: UICollectionViewCell {
     @IBOutlet weak var TeachersName: UILabel!
     @IBOutlet weak var Ftype: UILabel!
     
+    
+    @IBOutlet weak var offheart: UIButton!
+    
+    @IBAction func offheart(_ sender: UIButton) {
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-    }
-}
+   
+            }
+        }
