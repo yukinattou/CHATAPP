@@ -12,6 +12,7 @@ class ViewController: UIViewController,UICollectionViewDelegate, UICollectionVie
 
        
     
+    
     let FaceImage:[String]=["mimi","momo","author","mimi","momo","author","mimi","momo","author","mimi","momo","author","mimi","momo","author"]
      
      
@@ -71,6 +72,9 @@ class ViewController: UIViewController,UICollectionViewDelegate, UICollectionVie
 
         }
     
+  
+       
+     
     func searchBar(_ searchbar:UISearchBar, textDidChange searchText: String){
         
         filteredDate = []

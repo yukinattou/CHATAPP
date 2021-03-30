@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6641ECEC26008E2F00858517 /* DetailViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6641ECEA26008E2F00858517 /* DetailViewController1.swift */; };
+		6641ECED26008E2F00858517 /* DetailViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6641ECEB26008E2F00858517 /* DetailViewController1.xib */; };
+		6641ECF726008FFB00858517 /* SerectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6641ECF526008FFB00858517 /* SerectTableViewCell.swift */; };
+		6641ECF826008FFB00858517 /* SerectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6641ECF626008FFB00858517 /* SerectTableViewCell.xib */; };
 		66610DEE2570073100C606E9 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66610DED2570073100C606E9 /* CollectionView.swift */; };
 		66AC727524F607FE000C9857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC727424F607FE000C9857 /* AppDelegate.swift */; };
 		66AC727724F607FE000C9857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC727624F607FE000C9857 /* SceneDelegate.swift */; };
@@ -14,11 +18,19 @@
 		66AC727C24F607FE000C9857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AC727A24F607FE000C9857 /* Main.storyboard */; };
 		66AC727E24F60803000C9857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66AC727D24F60803000C9857 /* Assets.xcassets */; };
 		66AC728124F60803000C9857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AC727F24F60803000C9857 /* LaunchScreen.storyboard */; };
+		66AE38172612C57A00E65702 /* SecondTavleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE38162612C57A00E65702 /* SecondTavleViewController.swift */; };
 		66C0D6BC25AC1B32004A0968 /* Customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0D6BA25AC1B32004A0968 /* Customcell.swift */; };
 		66C0D6BD25AC1B32004A0968 /* Customcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C0D6BB25AC1B32004A0968 /* Customcell.xib */; };
+		66C6DC9B2603235E00654D77 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DC9A2603235E00654D77 /* SearchViewController.swift */; };
+		66C6DCB12603876900654D77 /* ATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6DCAF2603876900654D77 /* ATableViewCell.swift */; };
+		66C6DCB22603876900654D77 /* ATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C6DCB02603876900654D77 /* ATableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6641ECEA26008E2F00858517 /* DetailViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController1.swift; sourceTree = "<group>"; };
+		6641ECEB26008E2F00858517 /* DetailViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController1.xib; sourceTree = "<group>"; };
+		6641ECF526008FFB00858517 /* SerectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerectTableViewCell.swift; sourceTree = "<group>"; };
+		6641ECF626008FFB00858517 /* SerectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SerectTableViewCell.xib; sourceTree = "<group>"; };
 		66610DED2570073100C606E9 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		66AC727124F607FE000C9857 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AC727424F607FE000C9857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +40,12 @@
 		66AC727D24F60803000C9857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66AC728024F60803000C9857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66AC728224F60803000C9857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AE38162612C57A00E65702 /* SecondTavleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTavleViewController.swift; sourceTree = "<group>"; };
 		66C0D6BA25AC1B32004A0968 /* Customcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customcell.swift; sourceTree = "<group>"; };
 		66C0D6BB25AC1B32004A0968 /* Customcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Customcell.xib; sourceTree = "<group>"; };
+		66C6DC9A2603235E00654D77 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		66C6DCAF2603876900654D77 /* ATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATableViewCell.swift; sourceTree = "<group>"; };
+		66C6DCB02603876900654D77 /* ATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +78,18 @@
 		66AC727324F607FE000C9857 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				66AC727424F607FE000C9857 /* AppDelegate.swift */,
 				66AC727624F607FE000C9857 /* SceneDelegate.swift */,
+				66AC727424F607FE000C9857 /* AppDelegate.swift */,
+				66AE38162612C57A00E65702 /* SecondTavleViewController.swift */,
+				66C6DCAF2603876900654D77 /* ATableViewCell.swift */,
+				66C6DCB02603876900654D77 /* ATableViewCell.xib */,
 				66AC727824F607FE000C9857 /* ViewController.swift */,
 				66AC727A24F607FE000C9857 /* Main.storyboard */,
+				66C6DC9A2603235E00654D77 /* SearchViewController.swift */,
+				6641ECF526008FFB00858517 /* SerectTableViewCell.swift */,
+				6641ECF626008FFB00858517 /* SerectTableViewCell.xib */,
+				6641ECEA26008E2F00858517 /* DetailViewController1.swift */,
+				6641ECEB26008E2F00858517 /* DetailViewController1.xib */,
 				66C0D6BA25AC1B32004A0968 /* Customcell.swift */,
 				66C0D6BB25AC1B32004A0968 /* Customcell.xib */,
 				66610DED2570073100C606E9 /* CollectionView.swift */,
@@ -135,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66AC728124F60803000C9857 /* LaunchScreen.storyboard in Resources */,
+				6641ECED26008E2F00858517 /* DetailViewController1.xib in Resources */,
 				66AC727E24F60803000C9857 /* Assets.xcassets in Resources */,
+				6641ECF826008FFB00858517 /* SerectTableViewCell.xib in Resources */,
+				66C6DCB22603876900654D77 /* ATableViewCell.xib in Resources */,
 				66C0D6BD25AC1B32004A0968 /* Customcell.xib in Resources */,
 				66AC727C24F607FE000C9857 /* Main.storyboard in Resources */,
 			);
@@ -149,8 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				66AC727924F607FE000C9857 /* ViewController.swift in Sources */,
+				66C6DCB12603876900654D77 /* ATableViewCell.swift in Sources */,
 				66AC727524F607FE000C9857 /* AppDelegate.swift in Sources */,
+				66C6DC9B2603235E00654D77 /* SearchViewController.swift in Sources */,
 				66610DEE2570073100C606E9 /* CollectionView.swift in Sources */,
+				66AE38172612C57A00E65702 /* SecondTavleViewController.swift in Sources */,
+				6641ECF726008FFB00858517 /* SerectTableViewCell.swift in Sources */,
+				6641ECEC26008E2F00858517 /* DetailViewController1.swift in Sources */,
 				66AC727724F607FE000C9857 /* SceneDelegate.swift in Sources */,
 				66C0D6BC25AC1B32004A0968 /* Customcell.swift in Sources */,
 			);
